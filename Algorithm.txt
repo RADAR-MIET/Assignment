@@ -1,0 +1,23 @@
+Algo:
+
+1. Start
+2. Print "Enter your branch
+	 1. IT
+	 2. CSE"
+3. Print	"Enter your choice(1,2)"
+4. Input branch
+5. If branch >= 3 then print "Wrong Choice!" and end program
+6. Print "Enter your rollno:"
+7. Input rollno
+8. If branch=1 and rollno>=125 then print "CSE doesnot have students more than 124" and end program
+9. If branch=1 and roll>=11 then print "IT doesnot have students more than 10" and end program
+10.  If branch = 2 then rollno = rollno - 1 else rollno = rollno + 123
+11.  Call prediction_algo with input integer variable rollno
+12.  Read array of marks and classes
+13.  marks_1 = marks[rollno]/totalmarks
+14.  Class_1 = classes[rollno]/totalclass
+15.  alpha = (marks_1 + class_1)/2
+16.  alpha = alpha*10
+17.  print "prediction for 2nd sessional:" and alpha
+18.  End
+	
