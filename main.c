@@ -23,7 +23,7 @@ int main()
 		printf("IT doesnot have students more than 10\n");		// check if the user enter rollno more than 10 if branch =1
 		return(0);
 	}
-	{/*for switch case so that there can be no same case*/
+	{/*for array*/
 		if(branch==2)
 		{
 			rollno=rollno-1;
